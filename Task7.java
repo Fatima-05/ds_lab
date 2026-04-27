@@ -1,9 +1,9 @@
-public class Task7 {
+public class Task7{
     static void dupliValues(int[] nums){
         System.out.print("Duplicate values are: ");
-        for (int i=0;i<nums.length;i++){
-            for (int j=i+1;j<nums.length;j++){
-                if (nums[i]==nums[j]){
+        for(int i=0;i<nums.length;i++){
+            for(int j=i+1;j<nums.length;j++){
+                if(nums[i]==nums[j]){
                     System.out.print(nums[i]+" ");
                     break;
                 }
